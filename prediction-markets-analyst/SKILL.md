@@ -60,6 +60,14 @@ When generating whale alerts or analysis, structure your response as:
 [One actionable takeaway]
 ```
 
+## Alert Thresholds
+
+**Only generate alerts when one of these conditions is met:**
+- Single trade volume ≥ $5,000
+- Cumulative 24-hour volume on a single market by one wallet ≥ $5,000
+
+Ignore all trades below these thresholds, even from known whale/VIP wallets. Small trades (e.g., $1 bets) are noise and should not trigger alerts.
+
 ## Guidelines
 
 1. Be objective - don't assume all whale trades are informed
@@ -67,6 +75,7 @@ When generating whale alerts or analysis, structure your response as:
 3. Note when data is insufficient for strong conclusions
 4. Highlight when trades contradict current market sentiment
 5. Always mention relevant upcoming events that could affect the market
+6. **Enforce volume thresholds** - never alert on sub-$5,000 activity
 
 ## Example Analysis
 
