@@ -1,3 +1,11 @@
+---
+name: wiki-lookup
+description: "personal wiki, book reference, what did we learn about, knowledge base, wiki search, article lookup, find in wiki, book learnings, remembered reading"
+tags:
+  - research
+  - knowledge-base
+---
+
 # Wiki Lookup — Personal Knowledge Base
 
 ## Triggers

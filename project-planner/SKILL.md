@@ -1,8 +1,11 @@
 ---
 name: project-planner
 description: Run structured project planning for new builds. Use when Spencer says "let's build X", "plan out Y", "kick off Z", or asks to plan or scope a new project. Guides through a tight discovery → spec → ship plan, based on how Motor Inn / Jeeves projects actually get built.
+tags:
+  - planning
+  - project-management
+  - decomposition
 ---
-
 # Project Planner
 
 Run this when starting any new project. Goal: get from "let's build X" to a written plan and first cron/code in one session.
