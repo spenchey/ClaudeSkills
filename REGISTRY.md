@@ -1,6 +1,6 @@
 # ClaudeSkills Registry
 <!-- AUTO-GENERATED — do not edit. Run: node ~/clawd/scripts/generate-skill-registry.js -->
-<!-- Generated: 2026-04-17T21:48:29Z -->
+<!-- Generated: 2026-04-22T15:03:12Z -->
 
 | Skill | Triggers | Path | Lines |
 |---|---|---|---|
@@ -12,6 +12,12 @@
 | `copywriting` | improve this copy, rewrite this page, value proposition, hero section copy, this copy is weak, write copy for, marketing copy, above the fold, headline help, subheadline, cta copy, tagline, make this more compelling, help me describe my product | `~/ClaudeSkills/copywriting/SKILL.md` | 257 |
 | `customer-research` | customer research, talk to customers, survey analysis, voice of customer, customer personas, jobs to be done, build personas, community research, forum research, competitor reviews, customer sentiment, analyze transcripts, customer interviews, reddit mining, review mining, icp research, what do customers say, g2 reviews, digital watering holes, support ticket analysis | `~/ClaudeSkills/customer-research/SKILL.md` | 274 |
 | `docx` | word document, word doc, template, report, letter, .docx, memo | `~/ClaudeSkills/docx/SKILL.md` | 594 |
+| `firecrawl` | fetch this page, pull the content from, get the page at https:// | `~/ClaudeSkills/firecrawl/SKILL.md` | 149 |
+| `firecrawl-crawl` | get all the pages, bulk extract, crawl, extract everything under /docs | `~/ClaudeSkills/firecrawl-crawl/SKILL.md` | 59 |
+| `firecrawl-interact` | fill out the form, infinite scroll, open a session, scrape failed, navigate to, interact with the page, log in to, paginated, next page, interact, sign in, submit, click | `~/ClaudeSkills/firecrawl-interact/SKILL.md` | 84 |
+| `firecrawl-map` | find the url for, what pages are on, list all pages, map the site | `~/ClaudeSkills/firecrawl-map/SKILL.md` | 51 |
+| `firecrawl-scrape` | read this webpage, get the page, extract from this url, scrape, fetch, grab, pull | `~/ClaudeSkills/firecrawl-scrape/SKILL.md` | 69 |
+| `firecrawl-search` | find articles about, search for, find me, look up, what are people saying about | `~/ClaudeSkills/firecrawl-search/SKILL.md` | 60 |
 | `gbp-content-engine` | posting calendar, write gbp content, review response drafts, gbp posts | `~/ClaudeSkills/gbp-content-engine/SKILL.md` | 166 |
 | `gbp-structural-audit` | gbp description, gbp categories, gbp attributes, gbp services, gbp photos | `~/ClaudeSkills/gbp-structural-audit/SKILL.md` | 257 |
 | `gbp-velocity-audit` | review velocity, review teardown, posting frequency, review response, gbp posts | `~/ClaudeSkills/gbp-velocity-audit/SKILL.md` | 241 |
