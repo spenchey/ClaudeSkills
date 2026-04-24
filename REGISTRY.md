@@ -1,6 +1,6 @@
 # ClaudeSkills Registry
 <!-- AUTO-GENERATED — do not edit. Run: node ~/clawd/scripts/generate-skill-registry.js -->
-<!-- Generated: 2026-04-23T19:06:57Z -->
+<!-- Generated: 2026-04-24T14:07:15Z -->
 
 | Skill | Triggers | Path | Lines |
 |---|---|---|---|
