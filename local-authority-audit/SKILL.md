@@ -243,6 +243,27 @@ Search Google for "Motor Inn Auto Group" in quotes. Note every place the busines
 
 **Output schema code to:** `~/motor-inn-seo/content/drafts/schema/schema-$(date +%Y-%m).json`
 
+**HOW TO WRITE THIS FILE — IMPORTANT:** Use `bash` with a heredoc, NOT the
+`write` tool. The `write` tool requires `content` as a string and will
+reject a raw JSON object with `Validation failed for tool "write": content:
+must be string` (this caused the 2026-05 audit's schema write to fail).
+Bash heredoc is unambiguous and idempotent:
+
+```bash
+mkdir -p ~/motor-inn-seo/content/drafts/schema
+cat > ~/motor-inn-seo/content/drafts/schema/schema-$(date +%Y-%m).json <<'EOF'
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": "Motor Inn Auto Group",
+  ...rest of the JSON-LD object...
+}
+EOF
+```
+
+If you must use the `write` tool, pass `content` as a stringified JSON
+(e.g. `JSON.stringify(schemaObj, null, 2)`), never a raw object.
+
 ---
 
 ## Output Format
