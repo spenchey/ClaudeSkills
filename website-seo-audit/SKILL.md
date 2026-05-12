@@ -20,10 +20,21 @@ Monthly website-level SEO audit for Motor Inn Auto Group. Identifies keyword gap
 
 1. Read `~/.agents/product-marketing-context.md` for business context
 2. Read `~/motor-inn-seo/tools/seomachine/config/competitors.json` for competitor domains
-3. Activate venv: `source ~/motor-inn-seo/.venv/bin/activate`
-4. Load prior audit: `~/motor-inn-seo/audits/website-seo/website-seo-latest.md`
-5. Confirm GA4 CLI works: `/Users/spencerheywood/.local/bin/ga4 -p 364125348 -s 7daysAgo -e today traffic`
-6. Check GSC connection status — if not connected, skip GSC sections and note it
+3. Load `~/clawd/skills/motorinn-geo-seo/SKILL.md` for Motor Inn AI-search/GEO constraints
+4. Load `~/ClaudeSkills/seo-geo/SKILL.md` only for additive GEO audit heuristics and references
+5. Activate venv: `source ~/motor-inn-seo/.venv/bin/activate`
+6. Load prior audit: `~/motor-inn-seo/audits/website-seo/website-seo-latest.md`
+7. Confirm GA4 CLI works: `/Users/spencerheywood/.local/bin/ga4 -p 364125348 -s 7daysAgo -e today traffic`
+8. Check GSC connection status — if not connected, skip GSC sections and note it
+
+If `motorinnautogroup.com` robots, sitemap, homepage, or representative VDPs return `403`,
+record crawler access as the top blocker and route an engineering card through Mac before
+prioritizing copy or keyword work.
+
+When the audit identifies a new page, landing page, comparison page, city/service page, or
+VDP module opportunity, create a Rory-to-Emily brief using
+`~/clawd/skills/motorinn-seo-geo-page-design/SKILL.md`. Use Linear project `SEO/GEO Page Design`
+for discrete design work; keep routine audit/reporting in cron.
 
 ## Tools
 

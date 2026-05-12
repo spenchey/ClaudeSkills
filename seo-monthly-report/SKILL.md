@@ -24,6 +24,8 @@ Monthly rollup of all SEO performance data for Motor Inn Auto Group. This is the
 4. Load latest GBP velocity audit: `~/motor-inn-seo/audits/gbp-velocity/gbp-velocity-latest.md`
 5. Load latest website SEO audit: `~/motor-inn-seo/audits/website-seo/website-seo-latest.md`
 6. Load latest local authority audit: `~/motor-inn-seo/audits/local-authority/local-authority-latest.md`
+7. Load `~/clawd/skills/motorinn-geo-seo/SKILL.md` and include a brief GEO readiness line:
+   crawler access, AI bot access, FAQ/schema coverage, and highest AI-search blocker.
 
 This report aggregates — it does NOT re-run audits. If an audit is stale (over 45 days old), note it in the report.
 

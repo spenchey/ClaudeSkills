@@ -30,6 +30,13 @@ Before implementing schema, understand:
 
 ## Core Principles
 
+### Motor Inn Dealership Work
+
+For Motor Inn Auto Group pages, load `~/clawd/skills/motorinn-geo-seo/SKILL.md` first.
+Schema must use only facts visible on the page or present in trusted Motor Inn source data.
+Do not mark up hidden, inferred, or unsupported CARFAX, warranty, price-savings, review, or
+availability claims.
+
 ### 1. Accuracy First
 - Schema must accurately represent page content
 - Don't markup content that doesn't exist
